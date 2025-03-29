@@ -63,17 +63,17 @@ const Footer = () => {
             </Typography>
             <Typography variant="body2">
               Project Maintainer:{' '}
-              <Link href="https://github.com/hoangsonww" color="inherit" sx={{ textDecoration: 'underline', '&:hover': { color: '#f57c00' } }}>
-                Son Nguyen
+              <Link href="https://github.com/DevFarhanCoder" color="inherit" sx={{ textDecoration: 'underline', '&:hover': { color: '#f57c00' } }}>
+                Md. Farhan
               </Link>
             </Typography>
             <Typography variant="body2">
               Email:{' '}
-              <Link href="mailto:hoangson091104@gmail.com" color="inherit" sx={{ textDecoration: 'underline', '&:hover': { color: '#f57c00' } }}>
-                hoangson091104@gmail.com
+              <Link href="mailto:farhangori89@gmail.com" color="inherit" sx={{ textDecoration: 'underline', '&:hover': { color: '#f57c00' } }}>
+                farhangori89@gmail.com
               </Link>
             </Typography>
-            <Typography variant="body2">Phone: +1 (123) 456-7890</Typography>
+            <Typography variant="body2">Phone: +91 9867969445</Typography>
             <Typography variant="body2" sx={{ marginTop: '0.5rem' }}>
               Address: 123 Employee St, Suite 100, New York, NY 10001
             </Typography>
