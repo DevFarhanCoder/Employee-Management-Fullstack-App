@@ -1,22 +1,41 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
+# Node.js Dependencies (Frontend)
+node_modules/
+.pnp/
 .pnp.js
-.idea/dataSources.xml
 
-# testing
-/coverage
+# Java/Spring Boot (Backend)
+target/
+.mvn/
+*.class
+*.jar
+*.war
+*.log
 
-# misc
+# Environment Files
 .env
-.DS_Store
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# IDE & System Files
+.DS_Store
+.idea/
+.idea/dataSources.xml
+*.iml
+.vscode/
+
+# Testing & Coverage
+coverage/
+test-output/
+
+# Docker & Kubernetes (As per your request)
+docker-compose.yml
+nginx/
+kubernetes/
+
+# Logs & Debug Files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
